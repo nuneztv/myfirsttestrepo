@@ -1,0 +1,88 @@
+
+body{ 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-colorido-borroso-vivo_58702-2655.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+ }
+#icono1, #icono2 { 
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 5px;
+}
+.logos img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .formulario {
+    background-color: white;
+    height: 650px;
+    width: 400px;
+    border-radius: 8px;
+    -webkit-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+    -moz-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+    box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  
+    .inpunts input {
+      border: none;
+      border-bottom: 2px solid rgb(99, 97, 97);
+      width: 250px;
+      
+      padding-left: 27px;
+    }
+
+    
+    .boton1 input {
+      height: 35px;
+      width: 250px;
+      border-radius: 20px;
+      background-image: url(https://img.freepik.com/vector-gratis/textura-granulada-degradada_23-2148977114.jpg);
+      border: none;
+      color: aliceblue;
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    .boton1  {
+      text-align: right;
+      font-size: 12px;
+    }
+    .logos  {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .logos img {
+      margin: 5px;
+    }
+    .contacto {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 12px;
+
+    }
+
+    .informacion  {
+      padding-top: 80px;
+    }
